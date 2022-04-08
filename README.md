@@ -26,6 +26,3 @@ identidad visual de pymo)
 + Material-UI
 + Material-UI Icons
 + Font source {Roboto}
-
-Implement Node js
-https://www.youtube.com/watch?v=l4kGBv3Zjw8
