@@ -1,0 +1,46 @@
+CREATE TABLE "Inventory" (
+  "Type of Protection consumable" <type>,
+  "ID" <type>,
+  PRIMARY KEY ("ID")
+);
+
+CREATE TABLE "Hospital" (
+  "ID_hospital" int,
+  "Name" varchar(150),
+  "Number_register_cases" int,
+  "Number_require_face_mask" int,
+  "Number_require_KN95_mask" int,
+  "Number_require_protective_mask" Tipo,
+  PRIMARY KEY ("ID_hospital")
+);
+
+CREATE TABLE "Stock" (
+  "Available" <type>,
+  "Assignable" <type>,
+  "Total of consumables" <type>,
+  "Shipped" <type>
+);
+
+CREATE TABLE "Hospital" (
+  "ID_Hospital" <type>,
+  "Name" <type>,
+  "RegisterCases" <type>,
+  "Inventory" <type>,
+  PRIMARY KEY ("ID_Hospital")
+);
+
+CREATE TABLE "Type" (
+  "ID" <type>,
+  "Name" <type>,
+  PRIMARY KEY ("ID")
+);
+
+CREATE TABLE "Inventory" (
+  "ID_hospital" int,
+  "Total_consumables_warehouse" int,
+  "Available_consumables" int,
+  "Assign_consumables" int,
+  "Shipped_consumables" int,
+  "Date_receive_consumable" Datetime,
+  PRIMARY KEY ("Total_consumables_warehouse")
+);
