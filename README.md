@@ -9,6 +9,19 @@ Se abre en el puerto 3000 [http://localhost:3000](http://localhost:3000)
 
 Se cambiará la página si se edita.<br />
 
+## Diagramas
+### Diagrama Entidad relacion
+![Imagen](https://i.imgur.com/yRshE6z.png)
+
+### Diagrama Modelo relacional
+![Imagen](https://i.imgur.com/Md6DMFc.png)
+
+### Diagrama Modelo relacional Simple
+![Imagen](https://i.imgur.com/xUs44Bf.png)
+
+### Link al excel
+https://docs.google.com/spreadsheets/d/1uhclVmX9zv225vonwRqRE7jnZJUaBEdU_yZXPsMBSsY/edit?usp=sharing
+
 ### Entregables
 1. Diagrama de entidad-relación de las bases de datos
 2. Tablas en excel con sus atributos
